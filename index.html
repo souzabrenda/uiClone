@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+
+  <title>The Cafe</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">home</a>
+        </li>
+        <li>
+          <a href="#">about</a>
+        </li>
+        <li>
+          <a href="#">menu</a>
+        </li>
+        <li>
+          <a href="#">where</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <div class="heroImg">
+      <img src="./assets/heroImg.jpg" alt="Imagem do Café">
+      <span>the Cafe</span>
+    </div>
+  </section>
+  <section class="sectionCentralized">
+    <div class="about">
+      <strong>
+        ABOUT THE CAFE
+      </strong>
+      <span>
+        The Cafe was founded in blabla by Mr. 
+        Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+        nisi ut aliquip ex ea commodo consequat. 
+        <br>
+        <br>
+        In addition to our full espresso and brew bar menu, we serve fresh 
+        made-to-order breakfast and lunch sandwiches, as well as a selection 
+        of sides and salads and other good stuff.
+      </span>
+      <div class="italic">
+        <blockquote>
+          <i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i>
+          <span>Chef, Coffeeist and Owner: Liam Brown</span>
+        </blockquote>
+      </div>
+    </div>
+    <div class="imgDefault">
+      <img src="./assets/coffeshop.jpg" alt="Imagem do café">
+    </div>
+    <div class="information">
+      <div>
+        <strong>Opening hours:</strong><span> everyday from 6am to 5pm.</span>
+      </div>
+      <div>
+        <strong>Address:</strong><span> 15 Adr street, 5015, NY</span>
+      </div>
+    </div>
+    <section class="menu">
+      <strong class="section-title">the menu</strong>
+      <div class="btn-menu">
+        <button id="eatbtn" class="active">Eat</button>
+        <button id="drinkbtn">Drink</button>
+      </div>
+      <div class="menu-list-eat" id="eat"> 
+        <div class="item-menu">
+          <strong>Bread Basket</strong>
+          <span>Assortment of fresh baked fruit breads and muffins 5.50</span>
+        </div>
+        <div class="item-menu">
+          <strong>Honey Almond Granola with Fruits</strong>
+          <span>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</span>
+        </div>
+        <div class="item-menu">
+          <strong>Belgian Waffle</strong>
+          <span>Vanilla flavored batter with malted flour 7.50</span>
+        </div>
+        <div class="item-menu">
+          <strong>Scrambled eggs</strong>
+          <span>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</span>
+        </div>
+        <div class="item-menu">
+          <strong>Blueberry Pancakes</strong>
+          <span>With syrup, butter and lots of berries 8.50</span>
+        </div>
+      </div>
+      <div class="menu-list-drink menu-list-hiden" id="drink"> 
+        <div class="item-menu">
+          <strong>Coffee</strong>
+          <span>Regular coffee 2.50</span>
+        </div>
+        <div class="item-menu">
+          <strong>Chocolato</strong>
+          <span>Chocolate espresso with milk 4.50</span>
+        </div>
+        <div class="item-menu">
+          <strong>Coretto</strong>
+          <span>Whiskey and coffee 5.00</span>
+        </div>
+        <div class="item-menu">
+          <strong>Iced tea</strong>
+          <span>Hot tea, except not hot 3.00</span>
+        </div>
+        <div class="item-menu">
+          <strong>Soda</strong>
+          <span>Coke, Sprite, Fanta, etc. 2.50 </span>
+        </div>
+      </div>
+    </section>
+    <div class="imgDefault">
+      <img src="./assets/xicara.jpg" alt="uma xícara de café">
+    </div>
+    <strong class="section-title">where to find us</strong>
+    <div class="information">
+      <span>Find us at some address at some place.</span>
+    </div>
+    <div class="imgDefault">
+      <img src="./assets/map.jpg" alt="location">
+    </div>
+    <div class="reserve">
+      <span>
+        <strong>FYI!</strong> We offer full-service catering for any event, large or small. 
+        We understand your needs and we will cater the food to satisfy the biggerst 
+        criteria of them all, both look and taste. 
+        <br>
+        <br>
+        Reserve a table, ask for today's special or just send us a message:
+      </span>
+    </div>
+    <form action="#">
+      <input type="text" placeholder="Name">
+      <input type="number" placeholder="How many people">
+      <input type="date" placeholder="When">
+      <input type="text" placeholder="Message \ Special requirements">
+      <button type="submit">SEND MESSAGE</button>
+    </form>
+  </section>
+  <footer>
+    <span>Powered by Redheadragon 2022</span>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
